@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>O Curso é Muito Bom – Ben 10</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0b0f0c;
+      color: #e0ffe0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    header {
+      background: #1b2b1f;
+      padding: 30px;
+      box-shadow: 0 0 20px #00ff66;
+    }
+    header h1 {
+      color: #00ff66;
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      color: #aaffaa;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 0;
+      border-bottom: 1px solid #1f3f2f;
+    }
+    section h2 {
+      font-size: 2em;
+      color: #00ff66;
+      margin-bottom: 15px;
+    }
+    section img {
+      max-width: 350px;
+      margin: 10px;
+      border: 3px solid #00ff66;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 255, 100, 0.5);
+      transition: transform 0.3s;
+    }
+    section img:hover {
+      transform: scale(1.08);
+    }
+    .button {
+      display: inline-block;
+      background: #00ff66;
+      color: #0b0f0c;
+      padding: 15px 30px;
+      margin: 30px auto;
+      font-size: 1.5em;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #00ff66;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .button:hover {
+      background: #22ff88;
+      transform: scale(1.05);
+    }
+    footer {
+      background: #1b2b1f;
+      padding: 20px;
+      color: #aaffaa;
+      margin-top: 40px;
+    }
+  </style>
+  <script>
+    function inscrever() {
+      var audio = new Audio("https://www.myinstants.com/media/sounds/ben10-omnitrix.mp3");
+      audio.play();
+      setTimeout(function() {
+        window.location.href = "parabens.html";
+      }, 1500);
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>O CURSO É MUITO BOM!</h1>
+    <p>Já fez o curso? Não perca tempo, vire um herói agora!</p>
+  </header>
+  <section>
+    <h2>Antes e Depois do Curso</h2>
+    <img src="https://i.imgur.com/FvFJ8Fw.png" alt="Antes do curso">
+    <img src="https://i.imgur.com/aE6uJFs.png" alt="Depois do curso">
+  </section>
+  <section>
+    <h2>O Curso Aprovação Total</h2>
+    <img src="https://i.imgur.com/QL0ssHq.png" alt="Alien aprovando">
+    <img src="https://i.imgur.com/pWocxKn.png" alt="Outro alien">
+  </section>
+  <a href="#" class="button" onclick="inscrever()">Inscreva-se no Curso</a>
+  <footer>
+    <p>Site feito só por diversão – Ben 10 aprova!</p>
+  </footer>
+</body>
+</html>
